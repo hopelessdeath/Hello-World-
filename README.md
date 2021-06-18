@@ -1,2 +1,20 @@
-# Hello-World-
-test
+class Program
+    {
+        static void Main(string[] args)
+        {
+            // Форматируем шапку программы
+            Console.BackgroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine("********************");
+            Console.WriteLine("**** Мой проект ****");
+            Console.WriteLine("********************");
+            // Основная программа
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine();
+            Console.WriteLine("Hello, World!");
+
+            // Ожидание нажатия клавиши Enter перед завершением работы
+            Console.ReadLine();
+        }
+    }
